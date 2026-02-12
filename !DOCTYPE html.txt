@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open When You're Ready, My Love Bava ❤️</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        color: #fff;
+    }
+    .card {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 30px;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        max-width: 400px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        background: #ff4b5c;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover {
+        background: #ff1e3c;
+    }
+    .hidden {
+        display: none;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+</style>
+</head>
+<body>
+ 
+<div class="card">
+    <h1>💌 Open When You're Ready, My Love Bava ❤️</h1>
+    <p>
+        Hi My Love ❤️ <br><br>
+        Before this day begins, I just want to say something simple... <br><br>
+        You are my favorite part of every single day.  
+        My safest place.  
+        My biggest blessing.  
+    </p>
+ 
+    <button onclick="showMessage()">Open My Heart 💖</button>
+ 
+    <div id="loveMessage" class="hidden">
+        No matter what, you've had my heart forever.  
+        Happy Valentine's Day, My Love Bava ❤️  
+        – Forever Yours 💕
+    </div>
+</div>
+ 
+<script>
+function showMessage() {
+    document.getElementById("loveMessage").style.display = "block";
+}
+</script>
+ 
+</body>
+</html>
